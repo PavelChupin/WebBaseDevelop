@@ -1,0 +1,23 @@
+/*Стиль ко всем тегам данного вида*/
+h3 {
+    color: chocolate
+}
+
+/*Стиль по идентификатору элемента*/
+#myhead_id {
+    color: aqua;
+}
+#myhead_id1 {
+    color: aquamarine;
+}
+
+/*стиль по классу*/
+.mystyle{
+    color: darkgreen;
+}
+
+
+p{
+font-size: 1em;
+}
+
