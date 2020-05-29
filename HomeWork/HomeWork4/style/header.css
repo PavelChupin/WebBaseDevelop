@@ -1,0 +1,17 @@
+.header .logo{
+    background-image: url("../img/logo.jpg");
+    font-family: "Times New Roman";
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: darkgreen;
+}
+
+.header .logo_index{
+    text-decoration: none;
+}
+
+
+.header{
+
+}

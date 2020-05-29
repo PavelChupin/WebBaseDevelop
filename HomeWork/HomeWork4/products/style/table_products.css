@@ -1,0 +1,23 @@
+.table_properties {
+    width: 100%;
+    height: 100%;
+    /*Внешняя граница*/
+    border: 1px solid #000;
+    /*Убрать в таблице двойные линии, которые образовались в месте стыка ячеек.*/
+    border-collapse: collapse;
+}
+
+/*Граници ячеек*/
+.table_properties td {
+    border: 1px solid #000;
+}
+
+.table_caption {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table_header{
+    font-weight: bold;
+    color: blue;
+}
