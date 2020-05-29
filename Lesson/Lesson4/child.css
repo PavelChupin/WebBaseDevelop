@@ -1,0 +1,14 @@
+.product {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.product_img {
+    height: 150px;
+    background-color: forestgreen;
+}
+
+.product:hover .product_text{
+    color: darkred;
+}

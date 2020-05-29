@@ -1,0 +1,85 @@
+.menu{
+
+}
+
+.menu__list{
+list-style-type: none;
+    border: 1px solid #000;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: none;
+}
+
+
+/*Для каждого последнего дочернего элемента списка выплниться скругление*/
+.menu__list:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*Для каждого следующего дочернего элемента поставить линию с верху*/
+.menu__list:first-child{
+    border-top: 1px solid black;
+}
+
+/*Устанавливаем изменение фона при наведении на блок ссылки*/
+.menu__list:hover{
+    background-color: blue;
+}
+
+/*Найти n-нный элемент и установить для него фон*/
+.menu__list:nth-child(2)
+{
+    background-color: #999;
+}
+
+.menu__list:hover {
+    background-color: #234567;
+}
+
+.menu__list:hover .menu__link{
+    color: orange;
+}
+
+/*Найти каждлый элемент и установить для него фон*/
+.menu__list:nth-child(2n)
+{
+    background-color: #999;
+}
+
+/*Найти каждлый нечетный элемент и установить для него фон*/
+.menu__list:nth-child(2n+1)
+{
+    background-color: yellow;
+}
+
+
+.menu__link{
+font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*Устанавливаем повердение при наведении на ссылку*/
+.menu__link:hover{
+    color: orange;
+}
+
+/*Устанавливаем поведение при нажатии на ссылку*/
+.menu__link:active{
+    color: red;
+}
+
+/*
+.menu__link_last {
+    Скругления краев блока
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}*/
+
+/*При наведении на первый элемент выполнить*/
+.menu__list:first-child:hover{
+box-shadow: 0 -2px 5px red;
+}

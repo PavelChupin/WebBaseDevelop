@@ -1,0 +1,28 @@
+
+table {
+    width: 400px;
+    height: 200px;
+    /*Внешняя граница*/
+    border: 1px solid #000;
+    /*Убрать в таблице двойные линии, которые образовались в месте стыка ячеек.*/
+    border-collapse: collapse;
+}
+
+/*Граници ячеек*/
+td {
+    border: 1px solid #000;
+}
+
+.table {
+    width: 100%;
+    height: 250px;
+    /*Внешняя граница*/
+    border: 1px solid #000;
+
+}
+
+.bg_red {
+    background-color: red;
+    /*Убрать в таблице двойные линии, которые образовались в месте стыка ячеек.*/
+    border-collapse: collapse;
+}

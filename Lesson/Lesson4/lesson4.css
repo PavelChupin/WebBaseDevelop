@@ -1,0 +1,25 @@
+
+/*Вставка после элемента*/
+.menu__list:after{
+    content: ' *';
+}
+
+/*Вставка перед элементом*/
+.menu {
+    list-style-type: none;
+}
+.menu__list:before{
+    content: ' #';
+}
+
+/* Добавление контента для первого элемента*/
+.menu__list:nth-child(1):after{
+    content: ' new!';
+    color: red;
+    text-transform: uppercase;
+}
+
+/*отражения контента при наведении*/
+.menu__list:hover:after{
+    content: ' <<';
+}
