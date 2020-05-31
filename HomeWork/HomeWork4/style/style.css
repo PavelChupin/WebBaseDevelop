@@ -2,16 +2,6 @@
     background-color: #f8f8f8;
 }
 
-.menu {
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-.menu_list{
-    color: chocolate;
-    font-family: "Times New Roman";
-    font-size: large;
-}
 
 .header_product {
     color: black;
@@ -36,6 +26,15 @@
     text-align: left;
 }
 
+.small_info:first-letter, .full_info:first-letter{
+    font-family: Century;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+
+
 .list_properties_product {
     list-style-image: url(../img/list_mark.jpg);
     color: darkgreen;
@@ -49,10 +48,7 @@
     /*border-width: 2px 3px 4px 5px;*/
 }
 
-.input_text_contact {
-    height: 15px;
-    width: 300px;
-    font-family: Arial;
-    font-size: medium;
-    color: blue;
+.img_product:hover{
+    border: none;
+
 }
