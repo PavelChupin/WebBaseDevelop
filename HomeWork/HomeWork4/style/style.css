@@ -26,13 +26,12 @@
     text-align: left;
 }
 
-.small_info:first-letter, .full_info:first-letter{
+.small_info:first-letter, .full_info:first-letter {
     font-family: Century;
     font-size: 20px;
     color: green;
     font-weight: bold;
 }
-
 
 
 .list_properties_product {
@@ -48,7 +47,7 @@
     /*border-width: 2px 3px 4px 5px;*/
 }
 
-.img_product:hover{
+.img_product:hover {
     border-color: transparent;
 
 }

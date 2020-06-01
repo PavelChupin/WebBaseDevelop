@@ -3,13 +3,13 @@
     text-transform: uppercase;
 }
 
-.menu_list{
+.menu_list {
     color: chocolate;
     font-family: "Times New Roman";
     font-size: large;
 }
 
-.menu_list:hover{
+.menu_list:hover {
     color: blue;
     background-color: yellow;
 }
