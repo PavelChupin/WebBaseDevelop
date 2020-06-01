@@ -1,0 +1,59 @@
+.content{
+    background-color: #ccc;
+    height: 350px;
+    width: 450px;
+
+    /*Смещение элемента*/
+    /*Отступить элемента сверху*/
+    padding-top: 50px;
+    /*Отступить элемента с лева*/
+    padding-left: 150px;
+
+    /*Указываем что размер рамки не изменяется при смещениях элемента*/
+    box-sizing: border-box;
+
+    /*Смещение самого блока Внешнее смещение*/
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.item{
+    height: 50px;
+    width: 150px;
+    background-color: #555;
+}
+
+.header{
+    background-color: forestgreen;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    background-color: darkred;
+    margin-left: 80px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    background-color: #ccc;
+    margin-right: 50px;
+}
+
+.header-1{
+    background-color: forestgreen;
+    height: 150px;
+}
+
+.logo-1{
+    width: 35px;
+    height: 35px;
+    background-color: darkred;
+}
+.menu-1{
+    list-style-type: none;
+    display: flex;
+}

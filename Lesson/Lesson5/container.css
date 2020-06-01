@@ -1,0 +1,23 @@
+.container{
+    width: 600px;
+    /*Отступы по всем четырем координатам*/
+    /*margin: 50px 0 0 150px;*/
+    /*Центрирование блочных элементов*/
+    margin: 0 auto;
+}
+
+.header{
+    background-color: forestgreen;
+    height: 150px;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    background-color: darkred;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    background-color: #ccc;
+}

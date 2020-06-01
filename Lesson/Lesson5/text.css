@@ -1,0 +1,20 @@
+.content{
+    /*display: flex;*/
+}
+
+.img{
+    width: 100px;
+    height: 70px;
+    background-color: purple;
+    /*Обтикание текста*/
+    float: left;
+    margin-right: 32px;
+    margin-bottom: 16px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #ccc;
+    /*Если задан у верзнего блока float: left;*/
+    clear: both;
+}

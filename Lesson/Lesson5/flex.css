@@ -1,0 +1,95 @@
+/*Работает только на родительском элементе*/
+.content{
+    height: 200px;
+    background: #ccc;
+
+
+    /*Включаем сетку flex*/
+    display: flex;
+    /*Перенос элементов*/
+    flex-wrap: wrap;
+    /*Расположение элементов по горизонтале*/
+    /*Расположить элементы по центру*/
+    /*justify-content: center;*/
+    /*Расположить элементы с начала*/
+    /*justify-content: flex-start;*/
+    /*Расположить элементы с конца*/
+    /*justify-content: flex-end;*/
+    /*Раположить элементы c равномерными отступами вокруг них*/
+    justify-content: space-around;
+    /*Раположить элементы на одном расстоянии*/
+    /*justify-content: space-between;*/
+    /*Конец расположение элементов по горизонтале*/
+
+    /*Вертикальное центрирование во Flex*/
+    align-items: center;
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    /*align-items: stretch;*/
+}
+
+.block{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    /*Выстраивание элементов в строку УСТАРЛО*/
+    /*display: inline-block;*/
+    /*Выстраивание элементов в строку УСТАРЛО*/
+    /*display: table-cell;*/
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.block-1 {
+    /*Выровнить себя*/
+    align-self: flex-start;
+}
+.block-3 {
+    /*Выровнить себя*/
+    align-self: flex-end;
+}
+
+.content-1{
+    /*Включаем сетку flex*/
+    display: flex;
+   /*Расположить в колонку*/
+    flex-direction: column;
+    /*Расположить в колонку в обратном порядке*/
+    /*flex-direction: column-reverse;*/
+    /*Расположить в строчку*/
+    /*flex-direction: row;*/
+    /*Расположить в строчку в обратном порядке*/
+    /*flex-direction: row-reverse;*/
+
+}
+
+.content-2{
+    /*Включаем сетку flex*/
+    display: flex;
+}
+
+.block-4{
+    flex-grow: 1;/*Коофициент расположения элементов*/
+}
+.block-5{
+    flex-grow: 2;/*Коофициент расположения элементов*/
+}
+.block-6{
+    flex-grow: 3;/*Коофициент расположения элементов*/
+}
+
+
+.content-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    flex-grow: 1;
+    /*Базовое значение ширины элемента*/
+    flex-basis: 200px;
+    border: 1px solid #000;
+}
