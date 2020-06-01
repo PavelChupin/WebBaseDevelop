@@ -49,6 +49,6 @@
 }
 
 .img_product:hover{
-    border: none;
+    border-color: transparent;
 
 }
