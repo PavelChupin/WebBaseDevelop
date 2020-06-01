@@ -1,7 +1,26 @@
+.menu_temp{
+    display: flex;
+    flex-direction: column;
+    height: 81px;
+    margin-right: 20px;
+}
+
 .menu {
     list-style-type: none;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    width: auto;
+    height: 71px;
 }
+
+.header_menu {
+    text-align: right;
+    height: 10px;
+    text-transform: uppercase;
+}
+
 
 .menu_list {
     color: chocolate;
@@ -13,3 +32,6 @@
     color: blue;
     background-color: yellow;
 }
+
+
+

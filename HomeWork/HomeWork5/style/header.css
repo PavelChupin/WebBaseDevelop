@@ -1,17 +1,24 @@
-.header .logo {
+.logo {
+    margin-left: 20px;
     background-image: url("../img/logo.jpg");
-    font-family: "Times New Roman";
-    font-size: xx-large;
-    font-weight: bold;
-    text-align: center;
-    color: darkgreen;
-}
-
-.header .logo_index {
-    text-decoration: none;
+    height: 81px;
+    width: 150px;
 }
 
 
 .header {
     border-bottom: 1px solid black;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
 }
+
+
+
+
+
+
+
+
