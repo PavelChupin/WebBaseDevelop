@@ -1,0 +1,53 @@
+.background {
+    background-color: #f8f8f8;
+}
+
+
+.header_product {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.small_info {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_info {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.small_info:first-letter, .full_info:first-letter {
+    font-family: Century;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+
+.list_properties_product {
+    list-style-image: url(../img/list_mark.jpg);
+    color: darkgreen;
+    font-family: "Book Antiqua";
+    text-transform: none;
+    font-style: italic;
+}
+
+.img_product {
+    border: 5px solid green;
+    /*border-width: 2px 3px 4px 5px;*/
+}
+
+.img_product:hover {
+    border-color: transparent;
+
+}
