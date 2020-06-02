@@ -9,7 +9,7 @@
     /*width: 1024px;*/
 }
 
-.product_header_root_attr{
+.product_header_root_attr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,6 +47,7 @@
 .button_buy:hover {
     background-color: blue;
 }
+
 .button_buy:active {
     background-color: green;
 }
