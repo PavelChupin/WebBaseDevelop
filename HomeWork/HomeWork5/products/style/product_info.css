@@ -1,17 +1,19 @@
 .product_header_root {
     display: flex;
+    flex-wrap: wrap;
     width: 1024px;
     flex-direction: column;
 }
 
 .product_header_root_wight {
-    width: 1024px;
+    /*width: 1024px;*/
 }
 
 .product_header_root_attr{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1024px;
+    /*width: 1024px;*/
 }
 
 .product_header_root_info {
@@ -37,8 +39,14 @@
     width: 100px;
     height: 30px;
     margin-right: 10px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 .button_buy:hover {
-    background-color: darkred;
+    background-color: blue;
+}
+.button_buy:active {
+    background-color: green;
 }
