@@ -22,12 +22,14 @@
 
 
 .catalog_body_href {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .catalog_body_href_list {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     flex-direction: row;
     list-style-type: none;
 
