@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .catalog_body_photo_item {
@@ -22,17 +22,18 @@
 
 
 .catalog_body_href {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row;*/
 }
 
 .catalog_body_href_list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: row;
     list-style-type: none;
-
+    padding: 0;
 }
 
 .catalog_body_href_list_item {
