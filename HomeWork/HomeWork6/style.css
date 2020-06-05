@@ -73,25 +73,26 @@ body {
     margin-bottom: 71px;
 }
 
-.top_back{
+.top_back {
     background-image: url("img/illustration.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     height: 90%;
     background-size: 47%;
 }
-.heading{
+
+.heading {
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
-    margin-top: 64px ;
+    margin-top: 64px;
     margin-bottom: 32px;
 }
 
-.heading-mini{
+.heading-mini {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -99,7 +100,13 @@ body {
     margin-bottom: 14px;
 }
 
-.product{
+.product-box {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -110,12 +117,12 @@ body {
     flex-direction: column;
 }
 
-.product_img{
+.product_img {
     margin-bottom: 50px;
     align-self: center;
 }
 
-.product_link{
+.product_link {
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -125,15 +132,86 @@ body {
     display: flex;
 }
 
-.product_arrow{
+.product_arrow {
     margin-left: 20px;
 }
 
-.product-box{
-    margin-top: 64px;
-    display: flex;
-justify-content: space-between;}
-
-.product_img_big{
+.product_img_big {
     margin-top: -30px;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    max-width: 1140px;
+    /*height: 1189px;*/
+}
+
+.proj_text {
+    align-self: center;
+    max-width: 750px;
+    opacity: 1;
+    text-align: center;
+    color: #222222;
+}
+
+.proj_smart_home {
+    background-image: url("img/smart_home.png");
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 100%;
+    padding-right: 64px;
+    margin-top: 64px;
+}
+
+.proj_smart_home_heading {
+    text-align: right;
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.proj_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj_box_app{
+    text-align: left;
+    font-size: 28px;
+    width: 554px;
+    height: 417px;
+    padding: 32px;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.proj_box_app1_bg{
+    background-image: url("img/app1.png");
+    margin-right: 16px;
+}
+
+.proj_box_app2_bg{
+    background-image: url("img/app2.png");
+    margin-left: 16px;
+}
+
+
+
+.footer{
+    background: #316099;
+    width: 100%;
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_cope{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-left: 113px;
 }
