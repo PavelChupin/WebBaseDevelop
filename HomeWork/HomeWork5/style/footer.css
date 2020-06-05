@@ -7,4 +7,7 @@
     width: 100%;
     box-sizing: border-box;
     text-align: right;
+
+    /*Всегда с новой строки что бы на этот блок не было наплыва*/
+    clear: both;
 }
