@@ -1,3 +1,24 @@
+.container {
+    /*Что бы вернуть адаптивность блокам меняем ширину на максимальное*/
+    /*width: 1140px;*/
+    max-width: 1140px;
+    /*Что бы вернуть адаптивность блокам меняем ширину на максимальное*/
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.body {
+    width: 100%;
+    /*width: 1024px;*/
+    /*border-bottom: 1px solid black;*/
+}
+
 .background {
     background-color: #f8f8f8;
 }
@@ -50,4 +71,9 @@
 .img_product:hover {
     border-color: transparent;
 
+}
+
+.map {
+    height: 374px;
+    width: 100%;
 }
