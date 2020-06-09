@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Адаптив устанавливается для вышестоящего от элемента блока родителя элемента*/
+.header {
+    /*Адаптив по горизонтали*/
+    max-width: 600px;
+    min-width: 400px;
+    /*Адаптив по вертикали*/
+    min-height: 80px;
+    background-color: forestgreen;
+    /*Для пересекающихся элементов сделать колоесо прокрутки*/
+    overflow: scroll;
+}
+
+/*Пример что нельзя ставить max-width и max-height для элемента потомка*/
+.content {
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+}
+
+.item {
+    max-width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.item1{
+    max-width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    /*Скрывать пересекающиеся элементы*/
+    /*overflow: hidden;*/
+    /*Для пересекающихся элементов сделать колоесо прокрутки*/
+    overflow: scroll;
+}
+
+/*Медиа запросы*/
+.content_m {
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+}
+
+.item_m {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.content_m1 {
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+}
+
+.item_m1 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+/*зменение стилей при срабатывании какого то условия*/
+@media(max-width: 1024px){
+    .content_m{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 800px) {
+    .item_m{
+        background-color: #ccc;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+.header{background-color: orange}
+}
