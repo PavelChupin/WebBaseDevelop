@@ -14,6 +14,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .top {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     height: 768px;
@@ -67,6 +75,10 @@ body {
     text-decoration: none;
     padding: 15px 50px;
     display: inline-block
+}
+
+.button:hover{
+    background: #1F3F68;
 }
 
 .text_margin-bottom {
@@ -172,12 +184,12 @@ body {
     color: #FFFFFF;
 }
 
-.proj_box{
+.proj_box {
     display: flex;
     justify-content: space-between;
 }
 
-.proj_box_app{
+.proj_box_app {
     text-align: left;
     font-size: 28px;
     width: 554px;
@@ -187,19 +199,18 @@ body {
     margin-top: 32px;
 }
 
-.proj_box_app1_bg{
+.proj_box_app1_bg {
     background-image: url("img/app1.png");
     margin-right: 16px;
 }
 
-.proj_box_app2_bg{
+.proj_box_app2_bg {
     background-image: url("img/app2.png");
     margin-left: 16px;
 }
 
 
-
-.footer{
+.footer {
     background: #316099;
     width: 100%;
     height: 657px;
@@ -207,7 +218,7 @@ body {
     flex-direction: column;
 }
 
-.footer_cope{
+.footer_cope {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
