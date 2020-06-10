@@ -12,6 +12,9 @@
 body {
     /*Шрифт по умолчанию для всего тела*/
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -25,6 +28,9 @@ a:hover {
 .top {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     height: 768px;
+}
+.wrapper{
+flex-grow: 1;
 }
 
 .container {
