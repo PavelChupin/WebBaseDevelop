@@ -12,7 +12,7 @@
 body {
     /*Шрифт по умолчанию для всего тела*/
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    min-height: calc(100vh - 266px);
     display: flex;
     flex-direction: column;
 }
